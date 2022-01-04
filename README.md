@@ -1,2 +1,1 @@
-# Game
-召唤神龙
+# Shenlong-Normal
