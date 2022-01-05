@@ -60,7 +60,7 @@ var _hmt = _hmt || [];
 }
 function isRecentlyOpen() {
 	var now = Date.parse(new Date()) / 1000;
-	if (now - 900 > parseInt(getQueryVariable("t") / 1000)) {
+	if (now - 180 > parseInt(getQueryVariable("t") / 1000)) {
 		window.location.href = "https://mp.weixin.qq.com/s/wTHp6RJFtsakU6h47Be98g";
 	}
 }
